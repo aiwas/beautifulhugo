@@ -1,12 +1,12 @@
 # Content
 - id: dateFormat
-  translation: "2006年1月2日"
+  translation: "2006/01/02"
 - id: shortdateFormat
   translation: "2 Jan, 2006 15:04:05"
 - id: postedOnDate
   translation: "{{ .Count }}に投稿"
 - id: lastModified
-  translation: "(最終更新日時{{ .Count }})"
+  translation: "(最終更新 {{ .Count }})"
 - id: translationsLabel
   translation: "翻訳："
 - id: translationsSeparator
@@ -18,22 +18,22 @@
 - id: newerPosts
   translation: "新しいページ"
 - id: previousPost
-  translation: "前ページ"
+  translation: "前のページ"
 - id: nextPost
-  translation: "次ページ"
+  translation: "次のページ"
 - id: readTime
   translation: "分間"
 - id: words
-  translation: "言葉"
+  translation: "単語"
 
 
 # 404 page
 - id: pageNotFound
-  translation: "おっと、このページが存在しない。他にあたってください。（404エラー）"
+  translation: "お探しのページは見つかりませんでした（404 Not Found）"
 
 # Footer
 - id: poweredBy # Accepts HTML
-  translation: '起動力に<a href="http://gohugo.io">Hugo v{{ .Site.Hugo.Version }}</a> &nbsp;&bull;&nbsp; テーマに<a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>に基づいている<a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>'
+  translation: 'Powered by <a href="http://gohugo.io">Hugo v{{ .Site.Hugo.Version }}</a> | Theme by <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> based on <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>'
 
 # Navigation
 - id: toggleNavigation
@@ -65,7 +65,7 @@
 
 # Delayed Disqus
 - id: show
-  translation: "ショー"
+  translation: "開く"
 - id: comments
   translation: "コメント"
 
