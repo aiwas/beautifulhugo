@@ -6,7 +6,7 @@
 - id: postedOnDate
   translation: "{{ .Count }}"
 - id: lastModified
-  translation: "(最終更新{{ .Count }})"
+  translation: "(最終更新 {{ .Count }})"
 - id: translationsLabel
   translation: "翻訳："
 - id: translationsSeparator
@@ -24,7 +24,7 @@
 - id: readTime
   translation: "分間"
 - id: words
-  translation: "言葉"
+  translation: "単語"
 
 
 # 404 page
