@@ -195,3 +195,12 @@
         url('../fonts/open-sans/open-sans-v15-latin-800italic.ttf') format('truetype'), /* Safari, Android, iOS */
         url('../fonts/open-sans/open-sans-v15-latin-800italic.svg#OpenSans') format('svg'); /* Legacy iOS */
 }
+
+/* Title logo */
+@font-face {
+	font-family: 'Forest Smooth';
+	font-display: swap;
+	src: url('../fonts/ForestSmooth.woff2') format('woff2'),
+		 url('../fonts/ForestSmooth.woff') format('woff'),
+		 url('../fonts/ForestSmooth.ttf') format('truetype');
+}
